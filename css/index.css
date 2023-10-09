@@ -1,0 +1,323 @@
+.features-list{
+    list-style: none;
+    display: flex;
+}
+.feature-item{
+    text-align: center;
+}
+.feature-item h3{
+    font-size: 49px;
+    line-height: 61px;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news{
+    background-color: #FEF3F3;
+    width: 635px;
+    height: 401px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.news h2{
+    color: black;
+    font-size: 30px;
+    line-height: 42px;
+    position:absolute;
+    top: 3px;
+    left: 34px;
+}
+
+
+.news_text{
+    list-style: none; 
+    color:black;
+    position: absolute;
+    left: -3px;
+    top:50px;
+}
+.news_text time{
+    text-transform: none;
+}
+.news a{
+    font: inherit;
+
+
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: black;
+    border: none;
+
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+    position: absolute; 
+    top: 325px; 
+    left: 34px; 
+}
+
+.gallery{
+    background-color: #FEF3F3;
+    width: 635px;
+    height: 401px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.gallery h2{
+    color:black;
+}
+
+.forward{
+    position:absolute;
+    top:318px;
+    left:330px;
+
+}
+   
+.back{
+    position:absolute;
+    top:318px;
+    left:60px;
+
+}
+.gallery img{
+    position:absolute;
+    top:58px;
+    left: 60px;
+    background-color: gray;
+}
+.gallery h2{
+    font-weight: bold;
+    position:absolute;
+    top:3px;
+    left:55px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    background-color: #FEF3F3;
+    width: 635px;
+    height: 401px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.contacts h2{
+    color:black;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+.contacts p{
+    color:black;
+    margin-left: 30px;
+}
+
+.tb{
+    display: flex;
+}
+.tb button:last-child{
+    margin-left: 20px;
+}
+
+.work-time{
+    margin-top: -5px;
+    top:190px;
+    left: 34px;
+}
+.adress{
+    margin-top: -2px;
+}
+.contacts-content{
+    margin-top: 50px;
+}
+
+.enroll{
+    background-color: #FEF3F3;
+    width: 635px;
+    height: 401px;
+    position: relative;
+
+}
+.enroll h2, .enroll p{
+    color:black;
+    margin-left: 20px;
+}
+.enroll button{
+
+    margin-left: 20px;
+}
+
+
+.appointment-item input{
+    font: inherit;
+
+    background-color: transparent;
+    border: 2px solid #000000;
+    width: 140px;
+}
+.appointment-item input:focus{
+    border-color: #663d15;
+}
+.modal{
+    color:#000000;
+
+    background-color: #f8f3f0;
+    background-position: 0 0;
+}
+.modal h2{
+    font-size: 30px;
+    line-height: 42px;
+}
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    font:inherit;
+    color:#000000;
+    text-transform: uppercase;
+
+    background-color: #f9f6f3;
+    border:2px solid #000000;
+}
+
+.login-form input:focus{
+    border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus{
+    color:#663d15;
+}
+.modal a{
+    color:black;
+    text-decoration: underline;
+}
+.modal a:hover,
+.modal a:focus{
+    text-decoration: none;
+}
+
+.appointment-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.appointment{
+    display: block;
+}
+.appointment-item p{
+    width: 200px;
+}
+.news_text li p {
+    margin-bottom: 3px; /* Установите нужное значение отступа */
+}
+
+.modal{
+    position:fixed;
+     
+    color:#000000;
+    background-color: #f8f3f0;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+.modal-login{
+    display: none;
+
+    top:120px;
+    left: 50%;
+
+    width: 300px;
+    padding: 50px 80px;
+    margin-left: -230px;
+}
+.modal-close{
+    position: absolute;
+    top:0;
+    right: -34px;
+
+    width: 22px;
+    height: 22px;
+
+    background-color: transparent;
+    border: 0;
+
+    cursor: pointer;
+}
+.modal-close::before,
+.modal-close::after{
+    content: '';
+
+    position: absolute;
+
+    width: 19px;
+    height: 3px;
+
+
+    background-color: #d0d0d0;
+}
+.modal-close::before{
+    transform:rotate(45deg);
+}
+.modal-close::after{
+    transform:rotate(-45deg);
+}
+.modal-login h2{
+    margin: 0;
+    margin-bottom: 20px;
+
+    font-size: 30px;
+    line-height: 42px;
+}
+.modal-description{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.login-form p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 15px;
+    padding-right: 40px;
+
+    font: inherit;
+    color:#000000;
+    text-transform: inherit;
+
+    background-color: #f9f6f3;
+    border: 2px solid #000000;
+}
+
+.login-form input:focus{
+    border-color: #663d15;
+}
+.login-password-info{
+    display: flex;
+    justify-content: space-between;
+}
+.log{
+    width: 300px;
+}
+.modal-show{
+    display: block;
+}

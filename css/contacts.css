@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+}
+
+.contacts{
+    height: 1100px;
+    width: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left:400px;
+    border-radius: 30px;
+}
+
+.contacts h2,
+.contacts p{
+    margin-left: 35px;
+}

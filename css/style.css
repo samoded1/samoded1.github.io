@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding:0;
+
+    font-family: "Roboto", Arial, sans-serif;
+
+    font-size:14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FEF3F3;
+    text-transform: uppercase;
+
+    background-color: black;
+    background-image: url(../img/Interface/bg_image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+a{
+    text-decoration: none;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 30px;
+    font: inherit;
+
+
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: black;
+    border: none;
+
+    width: 225px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+button:hover,
+button:focus,
+button:active{
+    background-color: #663d15;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+.nav{
+     font-size: 24px;
+     line-height: 20px;
+     color:#FEF3F3;
+     flex-wrap: wrap;
+     display: flex;
+
+}
+.nav_item {
+    flex-wrap: wrap;
+    display: flex;
+}
+.nav_item a{
+    margin-left: 25px;
+    
+}
+.nav_item,
+.login {
+    list-style:none;
+}
+
+.nav_item a,
+.login a{
+    color:#FEF3F3;
+}
+.logo{
+    order:2;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav_item a:hover,
+.nav_item a:focus,
+.login a:hover,
+.login a:focus{
+    background-color: #663d15;
+}
+
+.nav_search input{
+    border-radius: 30px;
+    height: 33px;
+    width: 485px;
+    margin-left: 186px;
+    margin-top:12px;
+    background-color: #FEF3F3;
+    padding-right: 25px; /* Установите правый отступ для места под иконку */
+    background-image: url('../img/Interface/search.svg');
+    background-size: 20px 20px; /* Установите размер вашей иконки */
+    background-position: right 15px center; /* Расположение иконки: справа по центру */
+    background-repeat: no-repeat; /* Предотвращаем повторение фоновой картинки */
+}
+.nav_search input::placeholder{
+    font-size: 14px;
+    transform: translate(10px, -5px);
+}
+
+.login{
+    margin-top:20px;
+}
+.login img{
+    opacity: 0.3;
+}
+.login img:hover,
+.login img:focus,
+.login img:active{
+    opacity: 1;
+}
+.login a:hover,
+.login a:focus,
+.login a:active{
+    background-color: #663d15;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    min-height: 150px;
+    max-height: 200px;
+    background-color: #212121;
+    position: relative;
+}
+footer a{
+    color: white;
+  }
+  footer ul{
+    list-style: none;
+    margin: 0;
+  }
+  footer p a{
+    text-decoration: underline;
+  }
+.footer-contacts a{
+    color: white;
+    text-decoration: underline;
+}
+.footer-social {
+    text-align: center;
+}
+
+.social-button {
+    color: white;
+}
+
+.visually-hidden{
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,69 @@
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;  
+    flex-basis: 11;
+}
+.category-unit{
+    width: 267px;
+    height: 117px;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.category-unit p{
+    color: black;
+    font-size: 15px;
+}
+.category-unit img{
+    border-radius: 30px;
+}
+.product-list{
+    list-style: none;  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+}
+.product{
+    display: relative;
+    background-color: white;
+    border-radius: 30px;
+    width: 272px;
+    height: 394px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.product h3 {
+    color: black;
+    position: absolute; /* Устанавливаем absolute positioning для заголовка */
+    top: 260px; /* Располагаем заголовок на 260 пикселей от верхушки контейнера */
+    left: 20px; /* Располагаем заголовок на 20 пикселей слева от левого края контейнера */
+  }
+  
+  .product p {
+    color: black;
+    position: absolute; /* Устанавливаем absolute positioning для абзаца */
+    top: 330px; /* Располагаем абзац на 344 пикселях от верхней границы контейнера */
+    left: 20px; /* Располагаем абзац на 20 пикселей от левого края контейнера */
+  }
+
+.product button{
+    width: 75px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid #000;
+    color:#000;
+    font-size: 10px;
+    position: absolute;
+    top: 344px;
+    left: 91px;
+} 
+  .product button:last-child {
+    position: absolute; /* Устанавливаем absolute positioning для второй кнопки */
+    top: 344px; /* Располагаем вторую кнопку на 344 пикселях от верхней границы контейнера */
+    left: 176px; /* Располагаем вторую кнопку на 176 пикселях от левого края контейнера */
+  }

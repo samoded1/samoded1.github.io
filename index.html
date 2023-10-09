@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Барбершоп "BarbenDrive"</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link href="../css/normalize.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+        <link href="../css/index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="logo">
+                <img src="../img/Interface/logo.svg" width="595" height="229" alt="Логотип баребршопа BarbenDrive">
+            </a>
+            <ul class="nav_item">
+            <li><a href="news.html">Новости</a></li> 
+            <li><a href="price.html">Прайс-лист</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <section class="nav_search">
+               <input id="search" type="text" name="search" value="" placeholder="Я хочу найти...">
+            </section>
+            <ul class="login">
+                <li>
+                    <img src="../img/Interface/login.svg">
+                <a>
+                  Войти
+                </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h1 class="visually-hidden">Барбершоп "BarbenDrive"</h1>
+    <section class="features">
+        <h2 class="visually-hidden">Преимущетсва</h2>
+        <ul class="features-list">
+        <li class="feature-item">
+            <h3>Быстро</h3>
+            <img src="../img/Interface/Rhombus.svg" height="30px" width="30px">
+            <p>Пришло время для изменений, и нам важно, чтобы ваше время оставалось ценным. 
+                Наши опытные барберы понимают суету современной жизни, поэтому каждая стрижка 
+                у нас – это мастерство в действии.</p>
+        </li>
+        <li class="feature-item">
+            <h3>Круто</h3>
+            <img src="../img/Interface/Rhombus.svg" height="30px" width="30px">
+            <p>Наш барбершоп – это не просто место для стрижек, это целое 
+                путешествие в стиль и уверенность. Взлетите на новый уровень 
+                крутости с нашими модными стрижками, бритьем и ухаживающими процедурами.</p>
+        </li>
+        <li class="feature-item">
+            <h3>Дорого</h3>
+            <img src="../img/Interface/Rhombus.svg" height="30px" width="30px">
+            <p>Если вы цените непревзойденное качество и индивидуальный подход, то наш 
+                барбершоп – именно то место, которое вы искали. Здесь каждая стрижка – это 
+                творчество и мастерство, каждый бородатый образ – уникальный шедевр.</p>
+        </li>
+        </ul>
+    </section>
+    <div class="main-content">
+    <section class="news">
+        <h2>Новости</h2>
+        <ul class="news_text">
+            <li>
+                <p>Стиль и Комфорт: Новые Мужские Стрижки уже в BarbenDrive!</p>
+                <time datetime="2023-08-03" class="news-date">3 Августа</time>
+            </li>
+            <li>
+                <p>Мастера Бритья на Вершине Навыков: Открываем Секреты Идеального Гладкого Лица.</p>
+                <time datetime="2023-07-25" class="news-date">25 Июля</time>
+            </li>
+            <li>
+                <p>Barbendrive вводит новую услугу: бородатый стиль дня!</p>
+                <time datetime="2023-07-20" class="news-date">20 Июля</time>
+            </li>
+        </ul>
+        <a href="news.html">Все новости</a>
+    </section>
+
+    <section class="gallery">
+        <h2>Фотогалерея</h2>
+        <figure class="slide">
+            <a href="#">
+                <img src="../img/Interior.png" width="494" height="254" alt="Интерьер барбершопа">
+            </a>
+        </figure>
+        <button type="button" class="back">Назад</button>
+        <button type="button" class="forward">Вперёд</button>
+    </section>
+    
+    <section class="contacts">
+        <div class="contacts-content">
+        <h2>Контактная информация</h2>
+        <p class="adress">
+            Барбершоп "BarbenDrive"<br>
+            Адрес: г. Москва, ул. Мужества, дом 17A<br>
+            Телефон: +7 (123) 456-7890
+        </p>
+        <p class="work-time">
+            Время работы:<br>
+            10:00-21:00
+            Без выходных
+        </p>
+        <p class="tb">
+        <button type="button" class="the-way">Как проехать</button>
+        <button type="button" class="callback">Обратная связь</button>
+        </p>
+        </div>
+    </section>
+    
+    <section class="enroll">
+        <h2>Записаться</h2>
+        <p>Укажите желаемую дату и время, и мы свяжемся с вами для подтверждения брони.</p>
+        <form action="#" method="post" class="appointment-item">
+            <p>
+            <label for="appointment-date" class="appointment">Дата</label>
+            <input id="appointment-date" type="date" name="date" value="2023-07-25">
+            </p>
+            <p>
+            <label for="appointment-time" class="appointment">Время</label>
+            <input id="appointment-time" type="time" name="time" value="10:10" >
+            </p>
+            <p>
+            <label for="appointment-name" class="appointment">Ваше имя</label>
+            <input id="appointment-name" type="text" name="name" value="" placeholder="Борода">
+            </p>
+            <p>
+            <label for="appointment-phone" class="appointment">Ваш номер телефона</label>
+            <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+8 800 555 35 35">
+            </p>
+        </form>
+        <button type="submit">Записаться</button>
+    </section>
+    </div>
+</main>
+<footer>
+    <p  class="footer-contacts">
+        Барбершоп "BarbenDrive"<br>
+        Адрес: г. Москва, ул. Мужества, дом 17A<br>
+        <a class="map-link">Как нас найти?</a><br>
+        Телефон: +7 (123) 456-7890
+    </p>
+    <div class="footer-social">
+        <p>Давайте дружить!</p>
+        <ul>
+            <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+</footer>
+
+<section class="modal modal-login">
+    <h2>Личный кабинет</h2>
+    <p class="modal-description">Введите свой логин и пароль.</p>
+    <form class="login-form" action="#" method="post"> 
+        <label class="visually-hidden" for="user-login">Логин</label>
+        <input id="user-login" type="email" name="login" placeholder="email@example.com">
+    </p> 
+        <label class="visually-hidden" for="user-password" >Пароль</label>
+        <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="*********">
+    </p>
+    <p class="login-password-info">
+        <label class="login-checkbox">
+        <input type="checkbox" name="remember">
+        <span class="checkbox-indicator"></span>
+        Запомните меня
+        </label>
+        <a class="restore" href="#">Я забыл пароль!</a>
+    </p>
+    <button class="log" type="submit">
+        Войти
+    </button>
+    </form>
+    <button type="button" class="modal-close">
+        <p class="visually-hidden ">Закрыть</p>
+    </button>
+    </section>
+    <section class="modal modal-map">
+
+    <a href="https://yandex.ru/maps/1/moscow-and-moscow-oblast/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва и Московская область</a><a href="https://yandex.ru/maps/1/moscow-and-moscow-oblast/house/ulitsa_muzhestva_17a/Z04YfgJkSEAEQFtvfXV3cn1rbA==/services/?ll=37.854153%2C55.963189&tab=services&utm_medium=mapframe&utm_source=maps&z=17" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Мужества, 17А — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.854153%2C55.963189&mode=whatshere&tab=services&whatshere%5Bpoint%5D=37.854153%2C55.963188&whatshere%5Bzoom%5D=17&z=17" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+
+    </section>
+</body>
+<script>
+    var link = document.querySelector(".login")
+    var popup = document.querySelector(".modal-login")
+    var close = document.querySelector(".modal-close")
+    var maplink = document.querySelector(".map-link")
+    var modalmap = document.querySelector(".modal-map") 
+
+    link.addEventListener("click", function(evt){
+        evt.preventDefault();
+        popup.classList.add("modal-show");
+    });
+
+    close.addEventListener("click", function (evt){
+        evt.preventDefault();
+        popup.classList.remove("modal-show")  ;
+    });
+
+    maplink.addEventListener("click", function(evt){
+        evt.preventDefault()
+        modalmap.classList.add("modal-show");
+    });
+</script>
+</html>
+
+<!--Доделай интерактивную карту-->

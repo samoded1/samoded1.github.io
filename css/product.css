@@ -1,0 +1,13 @@
+.product{
+    width: 1000px;
+    height: 2200px;
+    background-color: black;
+    margin-bottom: 250px;
+    margin-left: 300px;
+}
+ul{
+    list-style: none;
+}
+.category-buttons{
+    display: flex;
+}

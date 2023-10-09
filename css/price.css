@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+}
+.price-list{
+    width: 600px;
+    height: 450px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:50px;
+    margin-left: 500px;
+}
+.price-list h2{
+    margin-left: 40px;
+}
+.price-list button{
+    background-color: white;
+    margin-left: 40px;
+}
+.price-list button {
+    margin-top: 40px;
+    background-color: white;
+    color: black;
+}
